@@ -1,0 +1,43 @@
+.form1{
+    background-color: rgb(118, 194, 118);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 7px;
+}
+.caixaTexto1{
+    margin: 2px;
+    border: solid 3px darkgreen;
+    border-radius: 5px;
+}
+.botao1{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: #fff;
+    font-weight: bold;
+    border: solid 3px rgb(118, 194, 118,0);
+}
+.botao1:hover{
+    background-color: #fff;
+    color: darkgreen;
+    border: solid 3px darkgreen;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title-form1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
